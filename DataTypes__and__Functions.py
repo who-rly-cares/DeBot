@@ -108,8 +108,3 @@ def GenralTest():
     test_professor = Professor(id=0, fullname="Reza", fullname_farsi="رضا", majors_teaching=["math"])
     test_profile = ProfessorProfile(owner=test_professor, tags=[TestingProfessorTag(test_professor, 0)])
     print(test_profile.return_as_json())
-
-
-
-
-GenralTest()
